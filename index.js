@@ -4,6 +4,7 @@ import "dotenv/config";
 import cors from "cors";
 import events from "./routes/events.js";
 import category from "./routes/category.js";
+import fs from "fs";
 
 const PORT = process.env.PORT;
 
