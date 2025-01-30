@@ -1,8 +1,3 @@
----
-
-### **Backend Repository README**
-
-```markdown
 # Event Management App - Backend API
 
 This is the backend repository for the **Event Management App**, providing a RESTful API to manage events.
@@ -19,4 +14,3 @@ This is the backend repository for the **Event Management App**, providing a RES
 - **Express**: Web framework for handling HTTP requests.
 - **CORS**: Middleware to enable cross-origin requests.
 - **dotenv**: Load environment variables from a `.env` file.
-```
