@@ -10,9 +10,11 @@ const PORT = process.env.PORT;
 
 app.use(cors());
 app.use(express.json());
+app.use(express.static("public"));
 
 app.use("/events", events);
 app.use("/category", category);
+app.use("/", express.static("./files"));
 
 function readEvents() {
   const eventsData = fs.readFileSync("./data/events.json");

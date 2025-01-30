@@ -3,6 +3,8 @@ const router = express.Router();
 import fs from "fs";
 import { v4 as uuidv4 } from "uuid";
 
+import coolImages from "cool-images";
+
 function readEvents() {
   const eventsData = fs.readFileSync("./data/events.json");
   const parsedData = JSON.parse(eventsData);
@@ -21,7 +23,7 @@ router.post("/", (req, res) => {
   const newEvent = {
     id: uuidv4(),
     name: req.body.name,
-    photo: "./public/photos/event-img.jpg",
+    photo: coolImages.one(),
     date: req.body.date,
     time: req.body.time,
     location: req.body.location,

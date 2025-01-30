@@ -11,9 +11,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cool-images": "^1.0.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "js-image-generator": "^1.0.4",
+    "picsum-photos": "^3.0.10",
     "uuid": "^11.0.5"
   }
 }
