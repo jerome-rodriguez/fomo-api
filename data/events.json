@@ -1,5 +1,16 @@
 [
   {
+    "id": "447acdcf-b5df-469a-b142-89e5064ec469",
+    "name": "Gabis Event",
+    "photo": "./public/photos/event-img.jpg",
+    "date": "2025-06-12",
+    "time": "20:00",
+    "location": "Echo Beach, Toronto",
+    "category": "music",
+    "description": "Fun times.",
+    "price": 6
+  },
+  {
     "id": "a1b2c3d4-e5f6-7890-ab12-cd34ef56gh78",
     "name": "EDM Night Festival",
     "photo": "https://example.com/edm-festival.jpg",
@@ -30,7 +41,7 @@
     "location": "Nathan Phillips Square, Toronto",
     "category": "music",
     "description": "An outdoor festival featuring renowned jazz and blues musicians.",
-    "price": 45.0
+    "price": 45
   },
   {
     "id": "d4e5f678-9012-3456-ab78-cd90ef12gh34",
@@ -41,7 +52,7 @@
     "location": "Trinity Bellwoods Park, Toronto",
     "category": "music",
     "description": "An all-day festival showcasing up-and-coming indie artists and bands.",
-    "price": 35.0
+    "price": 35
   },
   {
     "id": "e5f67890-1234-5678-ab90-cd12ef34gh56",
@@ -52,7 +63,7 @@
     "location": "Scotiabank Arena, Toronto",
     "category": "sports",
     "description": "Watch the Toronto Raptors battle the Boston Celtics in an intense playoff showdown.",
-    "price": 150.0
+    "price": 150
   },
   {
     "id": "f6789012-3456-7890-ab12-cd34ef56gh78",
@@ -63,7 +74,7 @@
     "location": "Downtown Toronto",
     "category": "sports",
     "description": "A scenic marathon through the city’s landmarks, open to runners of all levels.",
-    "price": 75.0
+    "price": 75
   },
   {
     "id": "90123456-7890-1234-ab56-cd78ef90gh12",
@@ -74,7 +85,7 @@
     "location": "BMO Field, Toronto",
     "category": "sports",
     "description": "An exciting match between Toronto FC and LA Galaxy in Major League Soccer.",
-    "price": 60.0
+    "price": 60
   },
   {
     "id": "12345678-9012-3456-ab78-cd90ef12gh34",
@@ -85,7 +96,7 @@
     "location": "Scotiabank Arena, Toronto",
     "category": "sports",
     "description": "Catch the historic rivalry between the Toronto Maple Leafs and Montreal Canadiens.",
-    "price": 120.0
+    "price": 120
   },
   {
     "id": "23456789-0123-4567-ab90-cd12ef34gh56",
@@ -96,7 +107,7 @@
     "location": "MaRS Discovery District, Toronto",
     "category": "networking",
     "description": "Meet and connect with top tech entrepreneurs, investors, and industry leaders.",
-    "price": 20.0
+    "price": 20
   },
   {
     "id": "34567890-1234-5678-ab12-cd34ef56gh78",
@@ -107,7 +118,7 @@
     "location": "Toronto Board of Trade",
     "category": "networking",
     "description": "An empowering networking event for women professionals and entrepreneurs.",
-    "price": 15.0
+    "price": 15
   },
   {
     "id": "45678901-2345-6789-ab34-cd56ef78gh90",
@@ -118,7 +129,7 @@
     "location": "OneEleven, Toronto",
     "category": "networking",
     "description": "Startups pitch their ideas to a panel of investors and get valuable feedback.",
-    "price": 10.0
+    "price": 10
   },
   {
     "id": "56789012-3456-7890-ab56-cd78ef90gh12",
@@ -129,7 +140,7 @@
     "location": "The Drake Hotel, Toronto",
     "category": "networking",
     "description": "A casual yet professional networking event to connect with like-minded individuals.",
-    "price": 25.0
+    "price": 25
   },
   {
     "id": "67890123-4567-8901-ab78-cd90ef12gh34",
@@ -140,7 +151,7 @@
     "location": "Woodbine Park, Toronto",
     "category": "food",
     "description": "Enjoy a variety of gourmet food trucks offering delicious street eats.",
-    "price": 5.0
+    "price": 5
   },
   {
     "id": "78901234-5678-9012-ab90-cd12ef34gh56",
@@ -151,7 +162,7 @@
     "location": "Metro Toronto Convention Centre",
     "category": "food",
     "description": "A sophisticated evening of wine tasting paired with gourmet cheese selections.",
-    "price": 50.0
+    "price": 50
   },
   {
     "id": "89012345-6789-0123-ab12-cd34ef56gh78",
@@ -162,7 +173,7 @@
     "location": "Yonge-Dundas Square",
     "category": "food",
     "description": "Indulge in the best ramen from top chefs and restaurants across the city.",
-    "price": 12.0
+    "price": 12
   },
   {
     "id": "90123456-7890-1234-ab34-cd56ef78gh90",
@@ -173,6 +184,28 @@
     "location": "Evergreen Brick Works, Toronto",
     "category": "food",
     "description": "A vibrant marketplace featuring the best vegan food, drinks, and products.",
-    "price": 10.0
+    "price": 10
+  },
+  {
+    "id": "d9bf2a19-dc2d-4247-95a9-d6d5c3473e92",
+    "name": "Gabis Event",
+    "photo": "./public/photos/event-img.jpg",
+    "date": "2025-06-12",
+    "time": "20:00",
+    "location": "Echo Beach, Toronto",
+    "category": "music",
+    "description": "Fun times.",
+    "price": 6
+  },
+  {
+    "id": "cf17d667-7d7f-40db-a87b-715864a08d77",
+    "name": "Gabis Event",
+    "photo": "./public/photos/event-img.jpg",
+    "date": "2025-06-12",
+    "time": "20:00",
+    "location": "Echo Beach, Toronto",
+    "category": "music",
+    "description": "Fun times.",
+    "price": 6
   }
 ]

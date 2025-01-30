@@ -3,8 +3,6 @@ const router = express.Router();
 import fs from "fs";
 import { v4 as uuidv4 } from "uuid";
 
-router.use(express.json());
-
 function readEvents() {
   const eventsData = fs.readFileSync("./data/events.json");
   const parsedData = JSON.parse(eventsData);
@@ -17,7 +15,6 @@ router.get("/", (req, res) => {
   res.json(events);
 });
 
-// POST /events
 router.post("/", (req, res) => {
   const events = readEvents();
 
@@ -28,17 +25,16 @@ router.post("/", (req, res) => {
     date: req.body.date,
     time: req.body.time,
     location: req.body.location,
-    category: req.body.category, // drop down selector
+    category: req.body.category,
     description: req.body.description,
     price: req.body.price,
   };
 
-  console.log(req.body);
-  // events.unshift(newEvent);
+  events.unshift(newEvent);
 
-  // fs.writeFileSync("./data/events.json"), JSON.stringify(events);
+  fs.writeFileSync("./data/events.json", JSON.stringify(events));
 
-  // res.json(newEvent);
+  res.status(201).json(newEvent);
 });
 
 export default router;

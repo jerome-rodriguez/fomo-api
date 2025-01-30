@@ -13,6 +13,18 @@ app.use(express.json());
 app.use("/events", events);
 app.use("/category", category);
 
+function readEvents() {
+  const eventsData = fs.readFileSync("./data/events.json");
+  const parsedData = JSON.parse(eventsData);
+  return parsedData;
+}
+
+// homepage
+app.get("/", (req, res) => {
+  const events = readEvents();
+  res.json(events);
+});
+
 app.listen(PORT, () => {
   console.log("Server is listening on port " + PORT);
 });
