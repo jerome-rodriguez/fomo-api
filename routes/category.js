@@ -1,11 +1,17 @@
 import express from "express";
 const router = express.Router();
 import fs from "fs";
-import { v4 as uuidv4 } from "uuid";
 
-// /category
+function readCategories() {
+  const categoryData = fs.readFileSync("./data/category.json");
+  const parsedData = JSON.parse(categoryData);
+  return parsedData;
+}
+
+// /events
 router.get("/", (req, res) => {
-  res.send("This is the /category base");
+  const categories = readCategories();
+  res.json(categories);
 });
 
 export default router;
