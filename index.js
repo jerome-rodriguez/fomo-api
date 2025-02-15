@@ -8,7 +8,14 @@ import fs from "fs";
 
 const PORT = process.env.PORT;
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://project-fomo.netlify.app", // Replace with your actual Netlify URL
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
+// app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 
